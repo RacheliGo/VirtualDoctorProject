@@ -1,0 +1,204 @@
+.div{
+    border: 1px solid black;
+    margin: auto;
+    width: 250px;
+    text-align: center;
+    color: rgb(29, 165, 165);
+    border-radius: 10px;
+}
+@keyframes fade {
+    0% { opacity: 0; } /* התחלת האנימציה - עם אפס נראות */
+    50% { opacity: 1; } /* 50% משך האנימציה - 100% נראות */
+    100% { opacity: 0; } /* סיום האנימציה - עם אפס נראות */
+}
+.notHid{
+    color: red;
+    animation: fade 1s infinite; /* הפעלת האנימציה עם משך 2 שניות */
+    display: inline; /* הצגת האלמנט */
+}
+
+.link {
+    text-decoration: "none";
+}
+.header {
+    display: flex;
+    align-items: center;
+    height: 120px; /* גובה של הכותרת */
+    color: #000;
+}
+
+.down{
+    position: fixed;
+    bottom: 20px;
+    text-align: left; /* שינוי לשמאל */
+    width: auto; /* רוחב אוטומטי כדי להתאים לתוכן */
+    background-color: transparent; /* הרקע שקוף */
+}
+
+.logo {
+    width: 250px; /* רוחב הלוגו */
+    height: 120px; /* גובה הלוגו */
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.button{
+    border: black solid 1px;
+    color: rgb(6, 195, 195);
+    background-color: white;
+    margin: auto;
+    text-decoration: none; /* מבטל קו תחתי */
+}
+
+/* קו מפריד*/
+.line{
+    background-color: rgb(90, 237, 188);
+    width: auto;
+    height: 2px;
+}
+
+/*עיצוב כותרות*/
+.text{
+    color: rgb(6, 195, 195);
+    text-align: center;
+    margin: auto;
+}
+
+.text button{
+    background-color: white;
+    color: rgb(6, 195, 195);
+    border: 1px solid black;
+    border-radius: 10%;
+    cursor: pointer;
+    margin: 15px 0px;
+    padding: 10px 15px;
+}
+
+/* .text button:hover{
+    background-color: rgb(119, 242, 242);
+    color: white;
+    border: none;
+} */
+
+.text-more{
+    color: rgb(6, 195, 195);
+    text-align: center;
+    margin: auto;
+}
+/*כפתור מוחבא*/
+.hidden-button {
+    opacity: 0.5; 
+}
+  
+
+/*עיצוב כיתוב bmi*/
+.BMI_OK{
+    text-align: center;
+    color: forestgreen;
+}
+
+.BMI_High{
+    text-align: center;
+    color: rgb(230, 60, 60);
+}
+
+.BMI_Low{
+    text-align: center;
+    color: rgb(254, 167, 61);
+}
+
+.info{
+    text-align: center;
+}
+.more-info{
+    font-size: 18px;
+    text-align: center;
+}
+/* .app {
+    background-image: url('D:\\לימודים שנה ב\\פרויקט\\client\\logo.png'); /* כתובת התמונה 
+    background-size: cover; /* התאמה של התמונה לגודל הדף 
+    background-repeat: no-repeat; /* מניעת חזרות של התמונה 
+    height: 100vh; /* גובה של העמוד להתאמה לגובה של החלון 
+    display: flex; /* תצוגת גמישות של התוכן 
+    justify-content: center; /* מרכוז התוכן באופן אופקי 
+    align-items: center; /* מרכוז התוכן באופן אנכי 
+    color: white; /* צבע טקסט עבור קריאותיות 
+    text-align: center; /* מרכוז הטקסט באופן אופקי 
+}   */
+
+.buttons{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+/*כפתור למעלה*/
+.top-corner-button {
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+/*כפתןר למעטה*/
+.down button {
+    background-color: white; /* צבע רקע לכפתור */
+    color: rgb(90, 237, 188);/* צבע טקסט לכפתור */
+    padding: 10px 20px;
+    border: solid rgb(90, 237, 188) 1px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    right: 111110px;
+}
+
+/*עיצוב כפתורי הבית*/
+.button-container {
+    display: flex;
+    justify-content: space-around; /* or any other value like 'space-between' */
+}
+
+.button-container button {
+    margin: 15px 0px;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+}
+
+.button-container button:hover {
+    border: 2px, solid black;
+}
+
+.custom-button {
+    background-color: white; /* Example button style */
+    padding: 10px 20px;
+    border: 1px solid rgb(6, 195, 195);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-containers {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to control distance from bottom */
+    left: 30px; /* Adjust this value to control distance from left */
+    z-index: 1000; /* Ensure the button is above other content */
+}
+
+.result{
+    color: rgb(230, 60, 60);
+    font-size: 22px
+}

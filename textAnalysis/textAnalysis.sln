@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "textAnalysis", "textAnalysis\textAnalysis.csproj", "{6430A47A-6FBE-49FD-8A9D-AFD3F31CF707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitraulDoctor.Api", "VitraulDoctor.Api\VitraulDoctor.Api.csproj", "{3D5A09A0-DA8D-4308-AF0E-E66FFB8E56B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6430A47A-6FBE-49FD-8A9D-AFD3F31CF707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6430A47A-6FBE-49FD-8A9D-AFD3F31CF707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6430A47A-6FBE-49FD-8A9D-AFD3F31CF707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6430A47A-6FBE-49FD-8A9D-AFD3F31CF707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5A09A0-DA8D-4308-AF0E-E66FFB8E56B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5A09A0-DA8D-4308-AF0E-E66FFB8E56B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5A09A0-DA8D-4308-AF0E-E66FFB8E56B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5A09A0-DA8D-4308-AF0E-E66FFB8E56B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C67DEEE-5D0C-4DE6-AF20-DE108AD38C47}
+	EndGlobalSection
+EndGlobal
