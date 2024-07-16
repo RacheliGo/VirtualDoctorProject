@@ -5,3 +5,4 @@ Blood tests forms are represented in the PDF file, so it is very difficalt to wo
 Therefore I analyzed them as follows:
 I turned them into pictures and looked for the information I needed. After that I read the data by using the tessetact libraries.
 Downlode tessetact libraries on computer: https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.3.3.20231005.exe
+For diagnoses diseases I useused the idea of ​​NLP.
